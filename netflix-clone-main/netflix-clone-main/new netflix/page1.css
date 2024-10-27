@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    overflow: hidden;
+}
+#navbar{
+    height:40px;
+    width:100vpw;
+    position: fixed;
+    
+}
+
+
+
+a {
+    font-size: 13px;
+    margin:5px;
+    color:white;
+    position: relative;
+    bottom:25px;
+    text-decoration: none;
+    
+}
+
+a > img{
+    height:40px;
+    width:100px;
+    object-fit: cover;
+    position: relative;
+    top:15px;
+    
+    
+}
+
+h1{
+    font-size: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: relative;
+    top:200px;
+}
+
+#continue{
+    
+    height:170px;
+    width:100vpw;
+    position: relative;
+    top:200px;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.c > img{
+    height: 170px;
+    width:300px;
+
+
+}
+
+#trending{
+
+    height:170px;
+    width:100vpw;
+    position: relative;
+    top:200px;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    
+
+}
+
+
+
+.t > img{
+    height:100%;
+    width:300px;
+
+}
+
+#new{
+    height:170px;
+    width:100vpw;
+    position: relative;
+    top:200px;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    
+
+}
+
+.n >img{
+    height:100%;
+    width:300px;
+
+
+}
+
+#scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+}
